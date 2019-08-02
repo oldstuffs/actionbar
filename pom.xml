@@ -9,6 +9,12 @@
     <packaging>pom</packaging>
     <version>1.0</version>
 
+    <modules>
+        <module>api</module>
+        <module>actionbar</module>
+        <module>nms</module>
+    </modules>
+
     <build>
         <plugins>
             <plugin>
@@ -55,11 +61,6 @@
             </plugin>
         </plugins>
     </build>
-    <modules>
-        <module>api</module>
-        <module>actionbar</module>
-        <module>nms</module>
-    </modules>
 
     <dependencies>
         <dependency>
