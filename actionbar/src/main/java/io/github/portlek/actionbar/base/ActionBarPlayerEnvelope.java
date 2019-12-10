@@ -18,7 +18,7 @@ import io.github.portlek.versionmatched.VersionMatched;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
-public class ActionBarPlayerEnvelope implements ActionBarPlayer {
+public abstract class ActionBarPlayerEnvelope implements ActionBarPlayer {
 
     @NotNull
     private final IActionBar actionBar;
