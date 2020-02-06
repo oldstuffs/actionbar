@@ -9,6 +9,7 @@ import io.github.portlek.actionbar.nms.v1_12_R1.ActionBar1_12_R1;
 import io.github.portlek.actionbar.nms.v1_13_R1.ActionBar1_13_R1;
 import io.github.portlek.actionbar.nms.v1_13_R2.ActionBar1_13_R2;
 import io.github.portlek.actionbar.nms.v1_14_R1.ActionBar1_14_R1;
+import io.github.portlek.actionbar.nms.v1_15_R1.ActionBar1_15_R1;
 import io.github.portlek.actionbar.nms.v1_8_R1.ActionBar1_8_R1;
 import io.github.portlek.actionbar.nms.v1_8_R2.ActionBar1_8_R2;
 import io.github.portlek.actionbar.nms.v1_8_R3.ActionBar1_8_R3;
@@ -26,6 +27,7 @@ public abstract class ActionBarPlayerEnvelope implements ActionBarPlayer {
     public ActionBarPlayerEnvelope(@NotNull final Player player) {
         this.actionBar = new VersionMatched<>(
             new MckActionBar(),
+            ActionBar1_15_R1.class,
             ActionBar1_14_R1.class,
             ActionBar1_13_R2.class,
             ActionBar1_13_R1.class,
